@@ -59,3 +59,7 @@ let login = prompt('Введите свой логин', );
 (login == 'Сотрудник') ? message = 'Привет' : (login == 'Директор') ? message = 'Здравствуйте' : (login == '') ? message = 'Нет логина' : message = 'Неверный логин';
 
 alert(message);
+
+
+// https://learn.javascript.ru/logical-operators
+
