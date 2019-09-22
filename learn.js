@@ -53,13 +53,45 @@
 //   message = '';
 // }
 
-let message;
+// let message;
 
-let login = prompt('Введите свой логин', );
-(login == 'Сотрудник') ? message = 'Привет' : (login == 'Директор') ? message = 'Здравствуйте' : (login == '') ? message = 'Нет логина' : message = 'Неверный логин';
+// let login = prompt('Введите свой логин', );
+// (login == 'Сотрудник') ? message = 'Привет' : (login == 'Директор') ? message = 'Здравствуйте' : (login == '') ? message = 'Нет логина' : message = 'Неверный логин';
 
-alert(message);
+// alert(message);
 
 
 // https://learn.javascript.ru/logical-operators
 
+// Напишите условие if для проверки, что переменная age находится в диапазоне между 14 и 90 включительно.
+
+// «Включительно» означает, что значение переменной age может быть равно 14 или 90.
+
+// let age = +prompt ('Vvedite chislo', '0');
+
+// if (age >= 14 && age <=90) {
+//     alert('Vash vozrast v nuzhnom diapazone');
+// } else {
+//     alert('Vash vozrast ne popapdaet v dopustimui diapazon');
+// }
+
+
+// Напишите условие if для проверки, что значение переменной age НЕ находится в диапазоне 14 и 90 включительно.
+
+// Напишите два варианта: первый с использованием оператора НЕ !, второй – без этого оператора.
+
+// let age = +prompt ('Vvedite chislo', '0');
+
+// if (age < 14 && age >90) {
+//     alert('Vash vozrast v nuzhnom diapazone');
+// } else {
+//     alert('Vash vozrast ne popapdaet v dopustimui diapazon');
+// }
+
+let age = +prompt ('Vvedite chislo', '0');
+
+if (!(age >= 14 && age <=90)) {
+    alert('Vash vozrast ne popapdaet v dopustimui diapazon');
+} else {
+    alert('Vash vozrast v nuzhnom diapazone');
+}
